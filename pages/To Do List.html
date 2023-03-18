@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Pertemuan 8 - To Do List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/js/To Do List.js">
+</head>
+<body>
+    <center><h1>To Do List</h1></center>
+    <h2>Arkatama Multi Solusindo</h2>
+    <div class="container">
+      <p>
+        <label for="new-task">Add Item</label>
+        <input id="new-task" type="text">
+        <button>Input Item</button>
+      </p>
+
+      <h4>List</h4>
+      <ul id="incomplete-tasks">
+        <li>
+          <input type="checkbox">
+          <label>Web Desain</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li class="editMode">
+          <input type="checkbox">
+          <label>Database Management System</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li class="editMode">
+          <input type="checkbox">
+          <label>PHP</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+
+      </ul>
+
+      <h4>Done</h4>
+      <ul id="completed-tasks">
+        <li>
+          <input type="checkbox" checked>
+          <label>Web Development & Collaborative Development</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" checked>
+          <label>Desain Web Dasar</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" checked>
+          <label>Java Script</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="../assets/js/To Do List.js"></script>
+</body>
+<footer>
+  <p class="created">
+    Copyright &copy; dzikrinurfauzij
+  </p>
+</footer>
+</html>
